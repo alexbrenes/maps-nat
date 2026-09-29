@@ -263,9 +263,9 @@ body,
   background: #aad3df;
 }
 
-/* Zoom buttons: floating rounded stack on the right, matching the menu card. */
-.leaflet-top.leaflet-right {
-  top: 12px;
+/* Zoom buttons: floating rounded stack in the bottom-right, matching the menu card. */
+.leaflet-bottom.leaflet-right {
+  bottom: 12px;
   right: 12px;
 }
 

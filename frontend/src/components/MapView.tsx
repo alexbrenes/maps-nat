@@ -163,7 +163,7 @@ export default function MapView({ places, draft, focusedId, overlays, onMapClick
       className="map"
     >
       {/* Zoom buttons on the right side, clear of the floating menu (left). */}
-      <ZoomControl position="topright" />
+      <ZoomControl position="bottomright" />
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
