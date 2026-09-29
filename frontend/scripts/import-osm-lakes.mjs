@@ -4,11 +4,11 @@
  * as seed *places* in the "lake" category (clickable, filterable markers that
  * highlight their outline on click, like parks). ECR ships no lakes of its own.
  *
- * We keep named still-water bodies (water=lake|reservoir|lagoon), drop rivers,
- * require the centroid to sit inside mainland Costa Rica (so the giant Nicaraguan
- * Lago Cocibolca on the border is excluded) and drop anything below a minimum
- * area so the overlay stays a handful of recognisable lakes, not thousands of
- * ponds.
+ * We keep every named still-water body (water=lake|reservoir|lagoon), drop
+ * rivers, and require the centroid to sit inside mainland Costa Rica (so the
+ * giant Nicaraguan Lago Cocibolca on the border is excluded). There is no
+ * minimum-area filter: small lagoons (e.g. Laguna María Aguilar, ~0.03 km²)
+ * are kept too.
  *
  * Run:  node scripts/import-osm-lakes.mjs
  */
@@ -19,7 +19,9 @@ import { dirname, join } from "node:path";
 const CR_BBOX = "8.0,-86.0,11.3,-82.5";
 // Mainland envelope for the centroid test (keeps CR, drops Nicaragua's lakes).
 const CR = { minlat: 8.0, maxlat: 11.22, minlng: -85.95, maxlng: -82.55 };
-const MIN_AREA_KM2 = 0.5; // ~50 ha — drops ponds, keeps real lakes
+// No minimum area — keep every named lake/reservoir/lagoon, however small.
+// (Degenerate/zero-point geometry is already dropped by the ring builder.)
+const MIN_AREA_KM2 = 0;
 const OVERPASS_MIRRORS = [
   "https://overpass-api.de/api/interpreter",
   "https://overpass.kumi.systems/api/interpreter",
@@ -110,6 +112,12 @@ function areaKm2(rings) {
   return deg2 * kmPerDegLat * kmPerDegLng;
 }
 
+// Human-readable size: km² for real lakes, hectares for small lagoons so the
+// label never collapses to a meaningless "0.0 km²".
+function sizeLabel(km2) {
+  return km2 >= 1 ? `${km2.toFixed(1)} km²` : `${(km2 * 100).toFixed(1)} ha`;
+}
+
 function centroid(rings) {
   let sx = 0;
   let sy = 0;
@@ -163,8 +171,8 @@ for (const el of resp.elements || []) {
   lakes.push({ name: { es: name, en: el.tags?.["name:en"] || name }, km2, rings });
 }
 lakes.sort((a, b) => b.km2 - a.km2);
-console.log(`Kept ${lakes.length} lakes ≥ ${MIN_AREA_KM2} km²:`);
-lakes.forEach((l) => console.log(`  • ${l.name.es} (${l.km2.toFixed(1)} km²)`));
+console.log(`Kept ${lakes.length} named lakes / reservoirs / lagoons:`);
+lakes.forEach((l) => console.log(`  • ${l.name.es} (${sizeLabel(l.km2)})`));
 
 // ---- Write the generated module ---------------------------------------------
 // Each lake becomes a seed Place (category "lake") plus an entry in LAKE_SHAPES
@@ -182,7 +190,7 @@ lakes.forEach((l, i) => {
     category: "lake",
     latitude: Math.round(lat * 1e5) / 1e5,
     longitude: Math.round(lng * 1e5) / 1e5,
-    meta: `${l.km2.toFixed(1)} km²`,
+    meta: sizeLabel(l.km2),
     createdAt: "2024-01-01T00:00:00.000Z",
   });
   shapes[id] = l.rings;
