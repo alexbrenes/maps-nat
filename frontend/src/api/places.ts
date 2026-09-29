@@ -14,8 +14,9 @@ const SEED_PLACES: Place[] = [...COSTA_RICA_PLACES, ...LAKE_PLACES];
  * calls — no component needs to change.
  */
 
-// Bumped when the seed dataset changes (v3 added the OpenStreetMap lakes).
-const STORAGE_KEY = "maps-nat.places.v3";
+// Bumped when the seed dataset changes (v3 added the OpenStreetMap lakes; v4
+// dropped the lake size filter, growing 19 → 183 named lakes/reservoirs/lagoons).
+const STORAGE_KEY = "maps-nat.places.v4";
 
 function load(): Place[] {
   const raw = localStorage.getItem(STORAGE_KEY);
