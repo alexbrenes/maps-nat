@@ -18,6 +18,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.49616,
     "longitude": -84.86323,
     "meta": "85.7 km²",
+    "size": "grande",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -31,6 +32,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.04892,
     "longitude": -83.58959,
     "meta": "6.0 km²",
+    "size": "grande",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -44,6 +46,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 8.54567,
     "longitude": -83.60924,
     "meta": "4.9 km²",
+    "size": "grande",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -57,6 +60,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.82654,
     "longitude": -83.8185,
     "meta": "2.5 km²",
+    "size": "grande",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -70,6 +74,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.85228,
     "longitude": -83.75884,
     "meta": "2.5 km²",
+    "size": "grande",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -83,6 +88,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.85901,
     "longitude": -83.64775,
     "meta": "1.9 km²",
+    "size": "grande",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -96,6 +102,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.8989,
     "longitude": -83.72302,
     "meta": "1.7 km²",
+    "size": "grande",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -109,6 +116,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.74068,
     "longitude": -84.79477,
     "meta": "1.4 km²",
+    "size": "grande",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -122,6 +130,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.93156,
     "longitude": -83.71266,
     "meta": "1.3 km²",
+    "size": "grande",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -135,6 +144,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.17853,
     "longitude": -83.5006,
     "meta": "1.3 km²",
+    "size": "grande",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -148,6 +158,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.71132,
     "longitude": -85.24661,
     "meta": "1.3 km²",
+    "size": "grande",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -161,6 +172,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 8.41685,
     "longitude": -83.38868,
     "meta": "1.2 km²",
+    "size": "grande",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -174,6 +186,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.9058,
     "longitude": -83.70168,
     "meta": "1.1 km²",
+    "size": "grande",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -187,6 +200,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 8.78753,
     "longitude": -83.32636,
     "meta": "1.1 km²",
+    "size": "grande",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -200,6 +214,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.64636,
     "longitude": -84.08791,
     "meta": "1.1 km²",
+    "size": "grande",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -213,6 +228,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.73285,
     "longitude": -84.18472,
     "meta": "64.9 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -226,6 +242,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.29593,
     "longitude": -84.21007,
     "meta": "53.1 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -239,6 +256,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 8.79918,
     "longitude": -83.34783,
     "meta": "52.4 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -252,6 +270,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.46397,
     "longitude": -85.09214,
     "meta": "52.1 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -265,6 +284,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 8.54792,
     "longitude": -83.66714,
     "meta": "49.6 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -278,6 +298,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.77877,
     "longitude": -84.15352,
     "meta": "45.9 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -291,6 +312,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.92913,
     "longitude": -83.67265,
     "meta": "44.4 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -304,6 +326,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.92943,
     "longitude": -84.37935,
     "meta": "38.6 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -317,6 +340,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.07767,
     "longitude": -84.89675,
     "meta": "38.2 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -330,6 +354,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.12866,
     "longitude": -83.95229,
     "meta": "37.5 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -343,6 +368,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.55792,
     "longitude": -85.42311,
     "meta": "36.8 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -356,6 +382,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.28226,
     "longitude": -85.11287,
     "meta": "33.3 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -369,6 +396,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.35615,
     "longitude": -84.21688,
     "meta": "32.6 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -382,6 +410,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 8.43769,
     "longitude": -83.43588,
     "meta": "30.5 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -395,6 +424,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.7515,
     "longitude": -84.13192,
     "meta": "30.0 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -408,6 +438,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.99222,
     "longitude": -83.60234,
     "meta": "29.6 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -421,6 +452,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.56243,
     "longitude": -84.47604,
     "meta": "29.0 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -434,6 +466,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 8.76383,
     "longitude": -82.83213,
     "meta": "24.3 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -447,6 +480,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.37679,
     "longitude": -85.70536,
     "meta": "22.6 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -460,6 +494,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.65912,
     "longitude": -84.06676,
     "meta": "20.6 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -473,6 +508,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.91686,
     "longitude": -83.70175,
     "meta": "20.0 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -486,6 +522,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.36796,
     "longitude": -84.61096,
     "meta": "19.0 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -499,6 +536,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.7501,
     "longitude": -84.03233,
     "meta": "18.5 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -512,6 +550,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 8.76395,
     "longitude": -82.68182,
     "meta": "14.7 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -525,6 +564,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 8.82321,
     "longitude": -82.84951,
     "meta": "14.5 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -538,6 +578,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 8.76774,
     "longitude": -82.67577,
     "meta": "14.3 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -551,6 +592,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.69885,
     "longitude": -84.00675,
     "meta": "13.9 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -564,6 +606,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 8.49451,
     "longitude": -82.59257,
     "meta": "13.0 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -577,6 +620,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.30545,
     "longitude": -84.21696,
     "meta": "13.0 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -590,6 +634,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.49429,
     "longitude": -83.48653,
     "meta": "12.9 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -603,6 +648,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 8.66076,
     "longitude": -83.0869,
     "meta": "12.2 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -616,6 +662,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.15752,
     "longitude": -83.33184,
     "meta": "11.9 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -629,6 +676,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.94236,
     "longitude": -84.32279,
     "meta": "11.8 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -642,6 +690,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.93403,
     "longitude": -84.35336,
     "meta": "11.5 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -655,6 +704,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.92702,
     "longitude": -83.73299,
     "meta": "11.2 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -668,6 +718,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.73714,
     "longitude": -84.02517,
     "meta": "10.2 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -681,6 +732,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.84133,
     "longitude": -85.20217,
     "meta": "10.1 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -694,6 +746,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.2782,
     "longitude": -83.60744,
     "meta": "10.1 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -707,6 +760,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.82203,
     "longitude": -85.33253,
     "meta": "10.0 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -720,6 +774,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.19762,
     "longitude": -84.23093,
     "meta": "10.0 ha",
+    "size": "mediana",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -733,6 +788,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 11.08379,
     "longitude": -85.18816,
     "meta": "9.2 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -746,6 +802,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.84544,
     "longitude": -84.67839,
     "meta": "8.6 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -759,6 +816,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.855,
     "longitude": -84.92514,
     "meta": "8.3 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -772,6 +830,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 8.80178,
     "longitude": -82.68771,
     "meta": "8.1 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -785,6 +844,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.38955,
     "longitude": -84.43202,
     "meta": "7.9 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -798,6 +858,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.71812,
     "longitude": -84.00713,
     "meta": "7.2 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -811,6 +872,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.4832,
     "longitude": -83.49636,
     "meta": "7.2 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -824,6 +886,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.63688,
     "longitude": -85.48327,
     "meta": "6.8 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -837,6 +900,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.66663,
     "longitude": -84.0562,
     "meta": "6.6 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -850,6 +914,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.99219,
     "longitude": -83.61166,
     "meta": "6.6 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -863,6 +928,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.76536,
     "longitude": -83.85937,
     "meta": "6.5 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -876,6 +942,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.75119,
     "longitude": -84.10319,
     "meta": "6.2 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -889,6 +956,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.73,
     "longitude": -84.03386,
     "meta": "5.6 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -902,6 +970,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 11.03986,
     "longitude": -85.54711,
     "meta": "5.4 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -915,6 +984,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.97624,
     "longitude": -83.63033,
     "meta": "5.4 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -928,6 +998,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.73379,
     "longitude": -84.02348,
     "meta": "5.4 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -941,6 +1012,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.75429,
     "longitude": -83.58858,
     "meta": "5.0 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -954,6 +1026,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.76575,
     "longitude": -85.65498,
     "meta": "4.9 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -967,6 +1040,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.69215,
     "longitude": -84.00002,
     "meta": "4.8 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -980,6 +1054,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.20362,
     "longitude": -83.93517,
     "meta": "4.6 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -993,6 +1068,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.63333,
     "longitude": -83.54404,
     "meta": "4.5 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1006,6 +1082,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.77544,
     "longitude": -85.04018,
     "meta": "4.4 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1019,6 +1096,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.24172,
     "longitude": -83.97565,
     "meta": "4.3 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1032,6 +1110,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.48582,
     "longitude": -84.7139,
     "meta": "4.2 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1045,6 +1124,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.7288,
     "longitude": -83.91246,
     "meta": "4.2 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1058,6 +1138,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.01298,
     "longitude": -83.5963,
     "meta": "4.2 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1071,6 +1152,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.33391,
     "longitude": -83.69678,
     "meta": "4.0 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1084,6 +1166,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.63892,
     "longitude": -84.03563,
     "meta": "4.0 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1097,6 +1180,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.65973,
     "longitude": -85.17793,
     "meta": "4.0 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1110,6 +1194,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 11.03721,
     "longitude": -85.53955,
     "meta": "3.9 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1123,6 +1208,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.74576,
     "longitude": -84.02974,
     "meta": "3.9 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1136,6 +1222,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.9392,
     "longitude": -84.2665,
     "meta": "3.8 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1149,6 +1236,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.2656,
     "longitude": -84.25921,
     "meta": "3.8 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1162,6 +1250,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.93463,
     "longitude": -84.10371,
     "meta": "3.8 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1175,6 +1264,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.06531,
     "longitude": -84.94174,
     "meta": "3.7 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1188,6 +1278,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.47977,
     "longitude": -84.28308,
     "meta": "3.4 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1201,6 +1292,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.98152,
     "longitude": -83.8457,
     "meta": "3.4 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1214,6 +1306,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.71599,
     "longitude": -83.99733,
     "meta": "3.3 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1227,6 +1320,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.49365,
     "longitude": -84.78946,
     "meta": "3.1 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1240,6 +1334,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.55177,
     "longitude": -84.62086,
     "meta": "3.1 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1253,6 +1348,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.53117,
     "longitude": -84.03141,
     "meta": "3.1 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1266,6 +1362,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.76611,
     "longitude": -85.03755,
     "meta": "2.9 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1279,6 +1376,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.86053,
     "longitude": -85.21206,
     "meta": "2.8 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1292,6 +1390,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.02914,
     "longitude": -83.91069,
     "meta": "2.6 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1305,6 +1404,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.35034,
     "longitude": -84.66983,
     "meta": "2.5 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1318,6 +1418,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 8.70655,
     "longitude": -83.56851,
     "meta": "2.4 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1331,6 +1432,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.65296,
     "longitude": -85.19237,
     "meta": "2.4 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1344,6 +1446,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.74087,
     "longitude": -84.01134,
     "meta": "2.3 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1357,6 +1460,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.72535,
     "longitude": -84.00337,
     "meta": "2.3 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1370,6 +1474,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.6427,
     "longitude": -85.20721,
     "meta": "2.2 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1383,6 +1488,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.2892,
     "longitude": -84.45742,
     "meta": "2.2 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1396,6 +1502,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.30814,
     "longitude": -84.54951,
     "meta": "2.2 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1409,6 +1516,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 11.169,
     "longitude": -85.80542,
     "meta": "2.2 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1422,6 +1530,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.3013,
     "longitude": -84.18789,
     "meta": "2.1 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1435,6 +1544,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.41706,
     "longitude": -84.37036,
     "meta": "2.1 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1448,6 +1558,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.63247,
     "longitude": -85.17741,
     "meta": "2.0 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1461,6 +1572,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.75364,
     "longitude": -84.0247,
     "meta": "2.0 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1474,6 +1586,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 11.13853,
     "longitude": -85.79247,
     "meta": "1.9 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1487,6 +1600,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.12526,
     "longitude": -84.19114,
     "meta": "1.9 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1500,6 +1614,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.67391,
     "longitude": -84.04592,
     "meta": "1.9 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1513,6 +1628,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.46464,
     "longitude": -85.10668,
     "meta": "1.7 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1526,6 +1642,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.11235,
     "longitude": -83.44809,
     "meta": "1.7 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1539,6 +1656,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.29086,
     "longitude": -84.52049,
     "meta": "1.6 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1552,6 +1670,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.8522,
     "longitude": -83.6891,
     "meta": "1.6 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1565,6 +1684,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.20567,
     "longitude": -83.37821,
     "meta": "1.6 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1578,6 +1698,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.64182,
     "longitude": -84.11033,
     "meta": "1.6 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1591,6 +1712,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.64652,
     "longitude": -85.05308,
     "meta": "1.5 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1604,6 +1726,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.46822,
     "longitude": -83.48044,
     "meta": "1.5 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1617,6 +1740,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.98088,
     "longitude": -84.97676,
     "meta": "1.5 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1630,6 +1754,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.87455,
     "longitude": -84.32631,
     "meta": "1.5 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1643,6 +1768,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.75893,
     "longitude": -84.0883,
     "meta": "1.5 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1656,6 +1782,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.66509,
     "longitude": -84.1359,
     "meta": "1.4 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1669,6 +1796,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.08874,
     "longitude": -84.48171,
     "meta": "1.4 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1682,6 +1810,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.70479,
     "longitude": -84.0491,
     "meta": "1.3 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1695,6 +1824,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.23582,
     "longitude": -84.71203,
     "meta": "1.3 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1708,6 +1838,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.9127,
     "longitude": -83.78566,
     "meta": "1.2 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1721,6 +1852,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.06695,
     "longitude": -83.34723,
     "meta": "1.2 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1734,6 +1866,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.84024,
     "longitude": -84.67641,
     "meta": "1.2 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1747,6 +1880,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.29921,
     "longitude": -84.21903,
     "meta": "1.2 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1760,6 +1894,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.67719,
     "longitude": -85.1809,
     "meta": "1.2 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1773,6 +1908,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.66579,
     "longitude": -85.20167,
     "meta": "1.1 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1786,6 +1922,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.64008,
     "longitude": -85.20497,
     "meta": "1.1 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1799,6 +1936,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 11.10941,
     "longitude": -85.76044,
     "meta": "1.1 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1812,6 +1950,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 11.08473,
     "longitude": -85.7102,
     "meta": "1.1 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1825,6 +1964,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.0429,
     "longitude": -83.4448,
     "meta": "1.1 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1838,6 +1978,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.47944,
     "longitude": -84.14192,
     "meta": "1.1 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1851,6 +1992,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.70559,
     "longitude": -84.04446,
     "meta": "1.1 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1864,6 +2006,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.72851,
     "longitude": -84.03449,
     "meta": "1.0 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1877,6 +2020,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.95213,
     "longitude": -84.34207,
     "meta": "1.0 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1890,6 +2034,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.83282,
     "longitude": -83.87819,
     "meta": "1.0 ha",
+    "size": "pequena",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1903,6 +2048,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.03651,
     "longitude": -84.2621,
     "meta": "0.9 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1916,6 +2062,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.91455,
     "longitude": -84.07357,
     "meta": "0.9 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1929,6 +2076,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.84242,
     "longitude": -84.67758,
     "meta": "0.9 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1942,6 +2090,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.6593,
     "longitude": -85.18102,
     "meta": "0.8 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1955,6 +2104,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.66957,
     "longitude": -85.01243,
     "meta": "0.8 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1968,6 +2118,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.91336,
     "longitude": -84.07336,
     "meta": "0.8 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1981,6 +2132,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.72933,
     "longitude": -84.56036,
     "meta": "0.8 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -1994,6 +2146,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.63902,
     "longitude": -84.09875,
     "meta": "0.7 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2007,6 +2160,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.64423,
     "longitude": -84.12687,
     "meta": "0.7 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2020,6 +2174,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.64889,
     "longitude": -85.1996,
     "meta": "0.7 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2033,6 +2188,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.5743,
     "longitude": -84.60138,
     "meta": "0.7 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2046,6 +2202,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.28681,
     "longitude": -84.46419,
     "meta": "0.6 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2059,6 +2216,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.32951,
     "longitude": -84.28097,
     "meta": "0.5 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2072,6 +2230,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.13414,
     "longitude": -84.10561,
     "meta": "0.5 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2085,6 +2244,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.62527,
     "longitude": -84.12381,
     "meta": "0.5 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2098,6 +2258,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.70784,
     "longitude": -84.00362,
     "meta": "0.5 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2111,6 +2272,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.73542,
     "longitude": -83.99933,
     "meta": "0.4 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2124,6 +2286,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.63665,
     "longitude": -84.04363,
     "meta": "0.4 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2137,6 +2300,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.49227,
     "longitude": -83.66066,
     "meta": "0.4 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2150,6 +2314,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.70355,
     "longitude": -84.0452,
     "meta": "0.4 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2163,6 +2328,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.32724,
     "longitude": -84.48515,
     "meta": "0.4 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2176,6 +2342,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.15571,
     "longitude": -84.19037,
     "meta": "0.3 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2189,6 +2356,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.98143,
     "longitude": -84.40978,
     "meta": "0.3 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2202,6 +2370,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.2625,
     "longitude": -84.3558,
     "meta": "0.2 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2215,6 +2384,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.66248,
     "longitude": -84.13678,
     "meta": "0.2 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2228,6 +2398,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.69775,
     "longitude": -83.95727,
     "meta": "0.2 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2241,6 +2412,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.65292,
     "longitude": -84.10482,
     "meta": "0.2 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2254,6 +2426,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.71682,
     "longitude": -85.58843,
     "meta": "0.2 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2267,6 +2440,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.08949,
     "longitude": -83.46672,
     "meta": "0.2 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2280,6 +2454,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.49334,
     "longitude": -83.49481,
     "meta": "0.1 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2293,6 +2468,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.36032,
     "longitude": -83.70594,
     "meta": "0.1 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2306,6 +2482,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.77297,
     "longitude": -84.05438,
     "meta": "0.1 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2319,6 +2496,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.85478,
     "longitude": -83.91041,
     "meta": "0.1 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2332,6 +2510,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.84412,
     "longitude": -85.61886,
     "meta": "0.1 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2345,6 +2524,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.61904,
     "longitude": -85.46048,
     "meta": "0.1 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2358,6 +2538,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 10.05787,
     "longitude": -84.08195,
     "meta": "0.0 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2371,6 +2552,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.3346,
     "longitude": -83.96129,
     "meta": "0.0 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   },
   {
@@ -2384,6 +2566,7 @@ export const LAKE_PLACES: Place[] = [
     "latitude": 9.60289,
     "longitude": -83.78747,
     "meta": "0.0 ha",
+    "size": "diminuta",
     "createdAt": "2024-01-01T00:00:00.000Z"
   }
 ];

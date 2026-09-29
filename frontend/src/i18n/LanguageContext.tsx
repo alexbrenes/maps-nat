@@ -1,7 +1,8 @@
 import { createContext, useContext, useState, type ReactNode } from "react";
-import type { Category, Localized } from "../types/place";
+import type { Category, LakeSize, Localized } from "../types/place";
 import { CATEGORY_META } from "../data/categoryMeta";
 import { OVERLAY_META, type OverlayKey } from "../data/overlayMeta";
+import { LAKE_SIZE_META } from "../data/lakeSizeMeta";
 import { TRANSLATIONS, type Lang } from "./translations";
 
 interface I18nValue {
@@ -14,6 +15,8 @@ interface I18nValue {
   categoryLabel: (c: Category) => string;
   /** Localized label for an overlay layer. */
   overlayLabel: (k: OverlayKey) => string;
+  /** Localized label for a lake size bucket. */
+  lakeSizeLabel: (s: LakeSize) => string;
   /** Resolve a possibly-bilingual value to the active language. */
   loc: (value: Localized) => string;
 }
@@ -42,6 +45,7 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     t: TRANSLATIONS[lang],
     categoryLabel: (c) => CATEGORY_META[c][lang],
     overlayLabel: (k) => OVERLAY_META[k][lang],
+    lakeSizeLabel: (s) => LAKE_SIZE_META[s][lang],
     loc: (value) => (typeof value === "string" ? value : value[lang]),
   };
 

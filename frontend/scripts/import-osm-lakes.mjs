@@ -118,6 +118,16 @@ function sizeLabel(km2) {
   return km2 >= 1 ? `${km2.toFixed(1)} km²` : `${(km2 * 100).toFixed(1)} ha`;
 }
 
+// Size bucket for the "Tamaño" sub-filter. MUST match sizeBucketFor() in
+// src/data/lakeSizeMeta.ts. grande ≥1 km² · mediana 0.1–1 · pequena 0.01–0.1
+// (1–10 ha) · diminuta <0.01 (<1 ha).
+function sizeBucket(km2) {
+  if (km2 >= 1) return "grande";
+  if (km2 >= 0.1) return "mediana";
+  if (km2 >= 0.01) return "pequena";
+  return "diminuta";
+}
+
 function centroid(rings) {
   let sx = 0;
   let sy = 0;
@@ -191,6 +201,7 @@ lakes.forEach((l, i) => {
     latitude: Math.round(lat * 1e5) / 1e5,
     longitude: Math.round(lng * 1e5) / 1e5,
     meta: sizeLabel(l.km2),
+    size: sizeBucket(l.km2),
     createdAt: "2024-01-01T00:00:00.000Z",
   });
   shapes[id] = l.rings;

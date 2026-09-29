@@ -21,6 +21,7 @@ interface Dict {
   hidePanel: string;
   showPanel: string;
   boundaries: string;
+  lakeSizes: string;
 }
 
 export const TRANSLATIONS: Record<Lang, Dict> = {
@@ -42,6 +43,7 @@ export const TRANSLATIONS: Record<Lang, Dict> = {
     hidePanel: "Ocultar panel",
     showPanel: "Mostrar panel",
     boundaries: "Límites",
+    lakeSizes: "Tamaño de lagos",
   },
   en: {
     subtitle: "Special places · click the map to add one",
@@ -61,5 +63,6 @@ export const TRANSLATIONS: Record<Lang, Dict> = {
     hidePanel: "Hide panel",
     showPanel: "Show panel",
     boundaries: "Boundaries",
+    lakeSizes: "Lake size",
   },
 };

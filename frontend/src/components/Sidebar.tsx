@@ -1,6 +1,7 @@
-import type { Category, Place } from "../types/place";
+import type { Category, LakeSize, Place } from "../types/place";
 import { CATEGORIES, CATEGORY_META } from "../data/categoryMeta";
 import { OVERLAY_KEYS, OVERLAY_META, type OverlayKey } from "../data/overlayMeta";
+import { LAKE_SIZES, LAKE_SIZE_META } from "../data/lakeSizeMeta";
 import { useI18n } from "../i18n/LanguageContext";
 import { LANGS } from "../i18n/translations";
 
@@ -11,6 +12,8 @@ interface SidebarProps {
   onQueryChange: (q: string) => void;
   activeCategories: Set<Category>;
   onToggleCategory: (c: Category) => void;
+  activeSizes: Set<LakeSize>;
+  onToggleSize: (s: LakeSize) => void;
   overlays: Set<OverlayKey>;
   onToggleOverlay: (k: OverlayKey) => void;
   onSelect: (id: string) => void;
@@ -26,6 +29,8 @@ export default function Sidebar({
   onQueryChange,
   activeCategories,
   onToggleCategory,
+  activeSizes,
+  onToggleSize,
   overlays,
   onToggleOverlay,
   onSelect,
@@ -33,7 +38,7 @@ export default function Sidebar({
   open,
   onToggle,
 }: SidebarProps) {
-  const { t, lang, setLang, loc, categoryLabel, overlayLabel } = useI18n();
+  const { t, lang, setLang, loc, categoryLabel, overlayLabel, lakeSizeLabel } = useI18n();
 
   return (
     <aside className={"sidebar" + (open ? " sidebar-open" : " sidebar-closed")}>
@@ -101,6 +106,23 @@ export default function Sidebar({
                     aria-pressed={overlays.has(k)}
                   >
                     {OVERLAY_META[k].emoji} {overlayLabel(k)}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div className="overlays">
+              <span className="overlays-title">{t.lakeSizes}</span>
+              <div className="overlay-chips">
+                {LAKE_SIZES.map((s) => (
+                  <button
+                    key={s}
+                    className={"chip" + (activeSizes.has(s) ? " chip-active" : "")}
+                    onClick={() => onToggleSize(s)}
+                    aria-pressed={activeSizes.has(s)}
+                    title={LAKE_SIZE_META[s].hint}
+                  >
+                    {LAKE_SIZE_META[s].emoji} {lakeSizeLabel(s)}
                   </button>
                 ))}
               </div>
