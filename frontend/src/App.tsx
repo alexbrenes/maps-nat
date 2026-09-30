@@ -39,13 +39,23 @@ export default function App() {
 
   const visiblePlaces = useMemo(() => {
     const q = normalize(query.trim());
+    // The Lagos toggle acts as an independent layer, not a mutually-exclusive
+    // category, so it never hides the other markers.
+    const nonLakeSelected = new Set(activeCategories);
+    nonLakeSelected.delete("lake");
     return places.filter((p) => {
-      if (activeCategories.size > 0 && !activeCategories.has(p.category)) return false;
-      // Size sub-filter refines only lakes; other categories are unaffected.
-      if (p.category === "lake" && activeSizes.size > 0 && (!p.size || !activeSizes.has(p.size)))
-        return false;
-      if (!q) return true;
-      return normalize(`${searchable(p.name)} ${searchable(p.description)}`).includes(q);
+      const matchesQuery = () =>
+        !q || normalize(`${searchable(p.name)} ${searchable(p.description)}`).includes(q);
+      if (p.category === "lake") {
+        // Lakes/lagoons are opt-in and OFF by default: shown only when the Lagos
+        // chip or any size chip is active. Active sizes then refine which show.
+        const lakesOn = activeCategories.has("lake") || activeSizes.size > 0;
+        if (!lakesOn) return false;
+        if (activeSizes.size > 0 && (!p.size || !activeSizes.has(p.size))) return false;
+        return matchesQuery();
+      }
+      if (nonLakeSelected.size > 0 && !nonLakeSelected.has(p.category)) return false;
+      return matchesQuery();
     });
   }, [places, activeCategories, activeSizes, query]);
 
